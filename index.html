@@ -4,18 +4,24 @@
 	<meta charset="UTF-8">
 	<title>Chat Publico</title>
 	<meta name="viewport" content="width=device-width initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 </head>
 <body>
-	<form action="">
-		<div class="container">
-			<label for="usuario"><b>Nombre de usuario</b></label>
-			<input type="text" placeholder="Ingresa tu usuario..." name="usuario" required>
+	<div id="Mymodal" class="modal">
+		<div class="modal-content">
+			<span class="close">&times;</span>
+			<br>
+			<form action="">
+				<div class="container">
+					<label for="usuario"><b>Usuario</b></label>
+					<input type="text" placeholder="Ingresa tu usuario..." name="usuario" required>
 
-			<input type="submit" class="registerbtn" name="ingresar" value="Ingresar">
+					<input type="submit" class="registerbtn" name="ingresar" value="Ingresar">
+				</div>
+			</form>
 		</div>
-	</form>
-	<script type="text/javascript" src="js/bootstrap.css"></script>
+	</div>
 	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/modal.js"></script>
 </body>
 </html>
